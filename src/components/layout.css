@@ -199,7 +199,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 100%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -208,6 +208,13 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+
+  /* CODE ADDED */
+  background-image: url('../images/headerimg.jpeg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 img {
   max-width: 100%;
@@ -615,6 +622,10 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+
+
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
