@@ -11,7 +11,7 @@ const IndexPage = () => (
     <h1>Had a Kenya?</h1>
     <p>Track your coffee beans, taste notes and recipes.</p>
 
-    <Link to="/page-2/">Let's Brew</Link>
+    <Link className="button" to="/page-2/">Let's Brew</Link>
 
   </Layout>
 )

@@ -37,9 +37,9 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with love
+          © {new Date().getFullYear()}, Built with ❤ by
           {` `}
-          <a href="https://www.traceywong.co">treycwong</a>
+          <a className="credit" href="https://www.traceywong.co">treycwong</a>
         </footer>
       </div>
     </>
