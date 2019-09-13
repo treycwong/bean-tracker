@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Bean Tracker`,
-    description: `Get your specialty coffee tracked.`,
+    description: `Track your coffee beans, taste notes and recipes.`,
     author: `@treycwong`,
   },
   plugins: [
