@@ -7,7 +7,7 @@
   "dependencies": {
     "blockstack": "^19.3.0",
     "bulma-extensions": "^6.2.7",
-    "gatsby": "^2.13.58",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-create-client-paths": "^2.1.13",
     "gatsby-plugin-manifest": "^2.2.4",
